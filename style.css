@@ -1,0 +1,82 @@
+main{
+    display: flex;
+    width:100vw;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    font-family:sans-serif;  
+  }
+.container{
+    display:flex;
+    flex-direction: column;  
+    width: 400px;
+    height: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius:20px;
+    box-shadow: 0 0 10px black;  
+    background-image: url(https://conteudo.imguol.com.br/c/entretenimento/54/2021/05/07/saude-cardiovascular-saude-do-coracao-1620391449813_v2_450x337.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:.9;  
+  }
+.title{
+    width: 80%;
+    height:80px;
+    font: bold 2rem serif;
+    color: green;  
+    margin-bottom: 20px;
+    font-size: 30px;  
+    margin-left:85%;   
+  }
+.input{
+    display:flex;
+    width: 300px;
+    height: 50px;
+    justify-content: space-between;
+    align-items:center;
+    opacity:.8;   
+  }
+.input input{box-shadow: 0px 0px 20px black;
+    width:200px;
+    height: 50px;
+    border-radius:15px;
+    border: 3px solid green;
+    outline: 15px;
+    font: bold 1.5rem serif;
+    text-align:center;  
+  }
+.input label{
+    font: bold 1.5rem serif;
+    
+  }
+  
+button{
+    width: 300px;
+    height: 40px;
+    font: bold 1.2rem serif;
+    background: green;
+    color: rgb(255,198,0);
+    outline: none;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+.result{
+    display:flex;
+    margin-top: 20px;
+    align-items: center;
+    width:300px;
+    height: 150px;
+    border-radius:15px;
+    border: 3px solid red;
+    font: italic 1.5rem serif;
+    box-shadow: 0px 0px 20px black;
+    background: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 3px solid green;
+    user-select: none;
+    opacity:.8;
+    color: black;
+  } 
